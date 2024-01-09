@@ -1,0 +1,6 @@
+test-tmp/
+node_modules/
+.vscode-test/
+*.vsix
+yarn.lock
+*.tgz

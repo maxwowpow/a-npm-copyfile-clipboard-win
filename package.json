@@ -1,0 +1,57 @@
+{
+  "name": "@amathron/copy-file-to-clipboard-win",
+  "version": "1.0.0",
+  "description": "Copy File To Clipboard (Win)",
+  "main": "dist/AmathronUtilClipboardWin.cjs",
+  "module": "dist/AmathronUtilClipboardWin.mjs",
+  "types": "dist/AmathronUtilClipboardWin.d.ts",
+  "scripts": {
+    "build": "unbuild && node copyAssets.mjs",
+    "test": "ts-mocha -p tsconfig.test.json test/**/*.spec.ts",
+    "test1": "mocha -r ts-node/register 'test/**/*.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxwowpow/a-npm-copyfile-clipboard-win.git"
+  },
+  "keywords": [
+    "productivity"
+  ],
+  "author": {
+    "name": "Amathron",
+    "url": "https://amathron.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxwowpow/a-npm-copyfile-clipboard-win/issues"
+  },
+  "homepage": "https://github.com/maxwowpow/a-npm-copyfile-clipboard-win#readme",
+  "files": [
+    "dist/**/*",
+    "LICENSE",
+    "README.md"
+  ],
+  "devDependencies": {
+    "@types/chai": "^4.3.11",
+    "@types/expect": "^24.3.0",
+    "@types/glob": "^8.0.0",
+    "@types/inquirer": "^9.0.7",
+    "@types/jest": "^29.5.11",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^16.18.70",
+    "@types/sinon": "^17.0.2",
+    "@typescript-eslint/eslint-plugin": "^6.18.1",
+    "@typescript-eslint/parser": "^6.18.1",
+    "axios": "^1.6.5",
+    "eslint": "^8.56.0",
+    "glob": "^8.0.3",
+    "inquirer": "^9.2.12",
+    "mocha": "^10.2.0",
+    "sinon": "^17.0.1",
+    "ts-mocha": "^10.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "unbuild": "^2.0.0"
+  },
+  "dependencies": {}
+}
