@@ -6,16 +6,24 @@
 
 ## Installation
 
-To install `AmathronUtilClipboardWin`, use npm:
+To install `AmathronUtilClipboardWin`, use:
+
+Pnpm:
 
 ```bash
-npm install @amathron/copy-file-to-clipboard-win
+pnpm add @amathron/copy-file-to-clipboard-win
 ```
 
-Or if you are using Yarn:
+Yarn:
 
 ```bash
 yarn add @amathron/copy-file-to-clipboard-win
+```
+
+Npm:
+
+```bash
+npm install @amathron/copy-file-to-clipboard-win
 ```
 
 ## Usage
